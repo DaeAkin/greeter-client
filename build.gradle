@@ -15,12 +15,7 @@ repositories {
 
 dependencies {
 	implementation 'org.springframework.boot:spring-boot-starter'
-
-		implementation 'com.github.DaeAkin:starter-test:-SNAPSHOT'
-
-
-//	implementation 'com.github.DaeAkin:greeter-library:v1.0.0'
-//	implementation 'com.github.DaeAkin:greeter-spring-boot-autoconfigure:v1.0.2'
+	implementation('com.github.DaeAkin:greeter-spring-boot-starter:v1.0.1')
 
 	testImplementation('org.springframework.boot:spring-boot-starter-test') {
 		exclude group: 'org.junit.vintage', module: 'junit-vintage-engine'

@@ -8,8 +8,6 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
 public class GreeterClientApplication implements CommandLineRunner {
-
-
 	@Autowired
 	private Greeter greeter;
 
@@ -22,5 +20,4 @@ public class GreeterClientApplication implements CommandLineRunner {
         String message = greeter.greet();
         System.out.println(message);
 	}
-
 }
